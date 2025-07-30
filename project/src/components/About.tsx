@@ -53,7 +53,7 @@ const About = () => {
                 </div>
                 <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed">
                   Bachelor of Computer Applications (BCA) from Maharshi Dayanand University, Rohtak, Haryana. 
-                  Expected graduation: 2025. Strong foundation in computer science and programming.
+                  Completed: 2025. Strong foundation in computer science and programming.
                 </p>
               </div>
             </div>

@@ -86,7 +86,7 @@ const Experience = () => {
       institution: 'Maharshi Dayanand University',
       location: 'Rohtak, Haryana',
       period: '2022 - 2025',
-      status: 'current'
+      status: 'completed'
     },
     {
       degree: 'Class 12 - Non-Medical (CBSE)',
