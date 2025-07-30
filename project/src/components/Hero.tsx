@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { ArrowDown, Github, Linkedin, Mail, ExternalLink, Download } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail, ExternalLink, Download, Youtube } from 'lucide-react';
 
 const Hero = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -130,7 +130,8 @@ const Hero = () => {
               { icon: Github, href: 'https://github.com/DEATHGOD89/DEATHGOD89', label: 'GitHub' },
               { icon: Linkedin, href: 'http://www.linkedin.com/in/bhupender-deathgod-b18758279', label: 'LinkedIn' },
               { icon: Mail, href: 'mailto:bhupendersingh123456789011@gmail.com', label: 'Email' },
-              { icon: ExternalLink, href: 'https://app.netlify.com/teams/deathgod89/projects', label: 'Netlify' }
+              { icon: ExternalLink, href: 'https://app.netlify.com/teams/deathgod89/projects', label: 'Netlify' },
+              { icon: Youtube, href: 'https://www.youtube.com/@Randomgrandshorts/videos', label: 'YouTube' }
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, MessageCircle, Clock, CheckCircle, Linkedin, Github, ExternalLink } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, MessageCircle, Clock, CheckCircle, Linkedin, Github, ExternalLink, Youtube } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -72,6 +72,12 @@ const Contact = () => {
       name: 'Netlify',
       url: 'https://app.netlify.com/teams/deathgod89/projects',
       color: 'hover:text-teal-600'
+    },
+    {
+      icon: Youtube,
+      name: 'YouTube',
+      url: 'https://www.youtube.com/@Randomgrandshorts/videos',
+      color: 'hover:text-red-600'
     }
   ];
 

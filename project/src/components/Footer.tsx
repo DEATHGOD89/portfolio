@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Code2, Heart, ArrowUp, ExternalLink } from 'lucide-react';
+import { Github, Linkedin, Mail, Code2, Heart, ArrowUp, ExternalLink, Youtube } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -32,7 +32,8 @@ const Footer = () => {
                   { icon: Github, href: 'https://github.com/DEATHGOD89/DEATHGOD89', label: 'GitHub' },
                   { icon: Linkedin, href: 'http://www.linkedin.com/in/bhupender-deathgod-b18758279', label: 'LinkedIn' },
                   { icon: Mail, href: 'mailto:bhupendersingh123456789011@gmail.com', label: 'Email' },
-                  { icon: ExternalLink, href: 'https://app.netlify.com/teams/deathgod89/projects', label: 'Netlify' }
+                  { icon: ExternalLink, href: 'https://app.netlify.com/teams/deathgod89/projects', label: 'Netlify' },
+                  { icon: Youtube, href: 'https://www.youtube.com/@Randomgrandshorts/videos', label: 'YouTube' }
                 ].map(({ icon: Icon, href, label }) => (
                   <a
                     key={label}
