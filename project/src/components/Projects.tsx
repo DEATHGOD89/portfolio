@@ -71,7 +71,7 @@ const Projects = () => {
     { id: 'all', name: 'All Projects' },
     { id: 'fullstack', name: 'Full Stack' },
     { id: 'backend', name: 'Backend' },
-    { id: 'security', name: 'Security' }
+    { id: 'security', name: 'Security' },
     { id: 'design', name: 'Design & Video' }
   ];
 
