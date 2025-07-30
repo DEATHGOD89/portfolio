@@ -257,8 +257,15 @@ const Contact = () => {
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
                 <a
-                  href="mailto:bhupendersingh123456789011@gmail.com"
+                  href="/RESUMABHUPENDER.pdf"
+                  download="Bhupender_Resume.pdf"
                   className="bg-black text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  Download Resume
+                </a>
+                <a
+                  href="mailto:bhupendersingh123456789011@gmail.com"
+                  className="border-2 border-black text-black px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold hover:bg-black hover:text-white transition-colors duration-300 text-sm sm:text-base"
                 >
                   Send Email
                 </a>
