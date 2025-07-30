@@ -24,8 +24,8 @@ const Footer = () => {
                 </span>
               </div>
               <p className="text-sm sm:text-base text-gray-400 mb-6 max-w-md leading-relaxed">
-                Full-Stack Developer and AI enthusiast passionate about creating exceptional digital experiences. 
-                Always learning, always building, always pushing the boundaries of what's possible.
+                Full-Stack Web Developer | Junior AI Engineer with expertise in full stack web development and AI. 
+                Passionate about creating exceptional digital experiences and solving real-world problems.
               </p>
               <div className="flex flex-wrap gap-3">
                 {[
