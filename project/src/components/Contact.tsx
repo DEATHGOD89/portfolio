@@ -264,7 +264,7 @@ const Contact = () => {
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
                 <a
-                  href="/RESUMABHUPENDER.pdf"
+                  href="/resume.pdf"
                   download="Bhupender_Resume.pdf"
                   className="bg-black text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300 text-sm sm:text-base"
                 >
