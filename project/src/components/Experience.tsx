@@ -222,9 +222,9 @@ const Experience = () => {
                       <h4 className="font-medium text-gray-800 dark:text-white text-sm">{edu.degree}</h4>
                       <p className="text-xs text-yellow-600 font-medium">{edu.institution}</p>
                       <p className="text-xs text-gray-500 dark:text-gray-400">{edu.location} • {edu.period}</p>
-                      {edu.status === 'current' && (
-                        <span className="inline-block mt-1 text-xs bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300 px-2 py-1 rounded-full">
-                          In Progress
+                      {edu.status === 'completed' && edu.degree.includes('BCA') && (
+                        <span className="inline-block mt-2 text-xs bg-green-400/20 text-green-400 px-2 py-1 rounded-full">
+                          Completed
                         </span>
                       )}
                     </div>
