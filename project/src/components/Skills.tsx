@@ -6,37 +6,37 @@ const Skills = () => {
     {
       icon: Code,
       title: 'Frontend Development',
-      skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Tailwind CSS'],
+      skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'UI/UX Design'],
       color: 'from-yellow-400 to-yellow-600'
     },
     {
       icon: Database,
       title: 'Backend Development',
-      skills: ['PHP', 'MySQL', 'Node.js', 'REST APIs', 'Database Design', 'Server Management'],
+      skills: ['PHP', 'MySQL', 'C', 'C++', 'Web Security', 'Database Design'],
       color: 'from-yellow-500 to-yellow-700'
     },
     {
       icon: Brain,
       title: 'AI & Machine Learning',
-      skills: ['OpenAI APIs', 'ChatGPT Integration', 'AI Bolt', 'Text-to-Speech', 'Generative AI', 'IBM Watson'],
+      skills: ['AI Bolt', 'ChatGPT', 'ElevenLabs', 'Text-to-Speech', 'Generative AI', 'IBM Watson'],
       color: 'from-yellow-300 to-yellow-500'
     },
     {
       icon: Palette,
       title: 'Design & Editing',
-      skills: ['After Effects', 'Topaz AI', 'Canva Design', 'UI/UX Design', 'Video Editing', 'VFX'],
+      skills: ['After Effects', 'Topaz AI', 'Canva Design', 'MS Office', 'PowerPoint', 'DSA'],
       color: 'from-yellow-600 to-yellow-800'
     },
     {
       icon: Cloud,
       title: 'Tools & Platforms',
-      skills: ['Netlify', 'Git', 'VS Code', 'ElevenLabs', 'MS Office', 'Web Security'],
+      skills: ['Netlify', 'Git', 'VS Code', 'MS Excel', 'Word', 'PowerPoint'],
       color: 'from-yellow-400 to-yellow-600'
     },
     {
       icon: Zap,
-      title: 'Programming Languages',
-      skills: ['C', 'C++', 'JavaScript', 'TypeScript', 'PHP', 'Python'],
+      title: 'Languages & Others',
+      skills: ['English (Fluent)', 'Hindi (Native)', 'JavaScript', 'TypeScript', 'PHP', 'C/C++'],
       color: 'from-yellow-500 to-yellow-700'
     }
   ];

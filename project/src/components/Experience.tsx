@@ -11,10 +11,10 @@ const Experience = () => {
       period: 'Mar 2023 - Present',
       description: 'Created and edited gaming videos for Instagram using After Effects and Topaz AI. Boosted engagement through trend-based content.',
       achievements: [
-        'Created 50+ gaming videos with professional editing',
-        'Increased engagement by 40% through trend analysis',
-        'Collaborated with marketing team for audience targeting',
-        'Mastered After Effects and Topaz AI workflows'
+        'Edit gaming videos for Instagram using After Effects and Topaz AI',
+        'Boosted engagement through trend-based content and collaborated with marketing for audience targeting',
+        'Created 50+ professional gaming videos',
+        'Mastered video editing workflows and content creation strategies'
       ],
       skills: ['After Effects', 'Topaz AI', 'Content Creation', 'Social Media Marketing'],
       type: 'current'
@@ -25,28 +25,28 @@ const Experience = () => {
       company: 'Freelance',
       location: 'Remote',
       period: 'Dec 2023 - Mar 2024',
-      description: 'Built a secure cookie-sharing platform using HTML, CSS, JS, PHP, and MySQL with automated user access and session handling.',
+      description: 'Collaborated with moderators and community managers to suggest improvements post-discovery, showcasing a commitment to ethical hacking and system improvement.',
       achievements: [
-        'Developed secure authentication system',
-        'Implemented automated session management',
-        'Created daily cookie refresh automation',
-        'Delivered project on time and within budget'
+        'Automated user access, session handling, and daily cookie refresh updates',
+        'Collaborated with moderators and community managers',
+        'Demonstrated commitment to ethical hacking and system improvement',
+        'Contributed to real-world vulnerability detection'
       ],
       skills: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
       type: 'previous'
     },
     {
       id: 3,
-      title: 'BOLT Hackathon Participant',
+      title: 'Bolt Hackathon - Participant',
       company: 'Hackathon',
       location: 'Online',
       period: '2024',
       description: 'Presented InfoHub platform concept - a unified full-stack application solving daily life, business, and emergency alert needs.',
       achievements: [
-        'Developed comprehensive platform concept',
-        'Presented to panel of industry experts',
-        'Gained valuable feedback on scalability',
-        'Networked with fellow developers'
+        'Presented InfoHub platform concept to industry experts',
+        'Developed unified full-stack application solving daily life, business, and emergency alerts',
+        'Demonstrated technical expertise in React, PHP, MySQL',
+        'Gained valuable feedback on platform scalability and implementation'
       ],
       skills: ['React', 'PHP', 'MySQL', 'Presentation', 'Problem Solving'],
       type: 'previous'
@@ -93,6 +93,13 @@ const Experience = () => {
       institution: 'SDM Memorial High School',
       location: 'Kiloi',
       period: '2022',
+      status: 'completed'
+    },
+    {
+      degree: 'Class 10 (CBSE)',
+      institution: 'Indian Public Sports School',
+      location: 'India',
+      period: '2020',
       status: 'completed'
     },
     {

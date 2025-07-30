@@ -93,13 +93,14 @@ const Hero = () => {
           
           <div className="text-lg sm:text-xl md:text-2xl text-gray-200 dark:text-gray-300 mb-8 animate-fade-in-up delay-200">
             <div className="overflow-hidden">
-              <p className="animate-slide-in-up">Full-Stack Web Developer</p>
+              <p className="animate-slide-in-up">Full-Stack Web Developer | Junior AI Engineer</p>
             </div>
             <div className="overflow-hidden">
               <p className="animate-slide-in-up delay-100">AI Engineer | BCA Graduate</p>
             </div>
             <div className="overflow-hidden">
-              <p className="animate-slide-in-up delay-200 text-base sm:text-lg">Building digital experiences that matter</p>
+              <p className="animate-slide-in-up delay-200 text-base sm:text-lg">Self-driven Full-Stack Developer and AI enthusiast with 3+ completed projects spanning 
+          frontend/backend, UI/UX, and secure database integration. Expertise in full stack web development and AI.</p>
             </div>
           </div>
 

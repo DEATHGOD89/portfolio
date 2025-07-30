@@ -94,9 +94,11 @@ const About = () => {
               </div>
               <h3 className="text-xl sm:text-2xl font-semibold mb-4 dark:text-white">My Philosophy</h3>
               <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
-                "Great code is not just about making things work—it's about creating solutions that are maintainable, 
-                scalable, and delightful to use. Every line of code should serve a purpose, and every user interaction 
-                should feel natural and intuitive."
+                Self-driven Full-Stack Developer and AI enthusiast with 3+ completed projects spanning 
+                Committed to delivering scalable, user-centric applications. Demonstrated deep understanding 
+                of web application security, session validation, and access control mechanisms, contributing 
+                Passing year: 2025. Also completed Class 12 Non-Medical (CBSE) from SDM Memorial High School, 
+                Kiloi in 2022, and Class 10 (CBSE) from Indian Public Sports School in 2020.
               </p>
             </div>
           </div>

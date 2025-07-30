@@ -8,7 +8,7 @@ const Projects = () => {
     {
       id: 1,
       title: 'InfoHub - Full-Stack Portal',
-      description: 'A comprehensive web platform offering business discovery, marketing tools, hackathon news, emergency alerts, and educational resources.',
+      description: 'A unified full-stack application solving daily life, business, and emergency alert needs. Developed a web platform offering business discovery, marketing tools, hackathon news, emergency alerts, and educational resources.',
       image: '/Snapinsta.app_368538680_626274699327199_9150694561883978447_n_1080 (1).jpg',
       category: 'fullstack',
       technologies: ['React', 'PHP', 'MySQL', 'JavaScript', 'HTML/CSS'],
@@ -20,10 +20,10 @@ const Projects = () => {
     {
       id: 2,
       title: 'MakeMoney - Challenge Platform',
-      description: 'A full-stack platform that allows users to earn money by completing real-world challenges and tasks with user dashboards and leaderboards.',
+      description: 'Developed a full-stack platform (https://challengemakemoney.netlify.app/) that allows users to earn money by completing real-world challenges and tasks. Implemented features such as challenge submissions, user dashboards, admin controls, and real-time leaderboards.',
       image: '/Snapinsta.app_368563576_616782460444543_8224269945196664474_n_1080 (1).jpg',
       category: 'fullstack',
-      technologies: ['React', 'PHP', 'MySQL', 'JavaScript', 'Netlify'],
+      technologies: ['React', 'PHP', 'MySQL', 'JavaScript', 'Frontend & Backend'],
       github: 'https://github.com/DEATHGOD89/DEATHGOD89',
       demo: 'https://challange1makemoney.netlify.app/',
       featured: true,
@@ -31,8 +31,8 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Cookie Sharing Platform',
-      description: 'A secure cookie-sharing platform with automated user access, session handling, and daily cookie refresh updates.',
+      title: 'Website Development Project',
+      description: 'Collaborated with moderators and community managers to suggest improvements post-discovery, showcasing a commitment to ethical hacking and system improvement. Automated user access, session handling, and daily cookie refresh updates.',
       image: '/Snapinsta.app_368672610_1365059547696951_955156712303467725_n_1080 (1).jpg',
       category: 'backend',
       technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
@@ -55,11 +55,11 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: 'AI Chatbot Integration',
-      description: 'Built and integrated AI chatbots using OpenAI APIs and IBM Watson for various client projects.',
+      title: 'Security & Vulnerability Research',
+      description: 'Successfully bypassed paywalls and security layers on platforms like Eldorado.gg, Brave Browser, Norton360, and StackBlitz, helping identify weaknesses and offering recommendations to improve their security and user access mechanisms.',
       image: '/Snapinsta.app_368884487_621654750107890_8246295225779460764_n_1080 (1).jpg',
-      category: 'ai',
-      technologies: ['OpenAI API', 'IBM Watson', 'JavaScript', 'React', 'Node.js'],
+      category: 'backend',
+      technologies: ['Web Security', 'Vulnerability Detection', 'Security Analysis', 'Ethical Hacking'],
       github: 'https://github.com/DEATHGOD89/DEATHGOD89',
       demo: '#',
       featured: false,
@@ -71,7 +71,7 @@ const Projects = () => {
     { id: 'all', name: 'All Projects' },
     { id: 'fullstack', name: 'Full Stack' },
     { id: 'backend', name: 'Backend' },
-    { id: 'ai', name: 'AI/ML' },
+    { id: 'security', name: 'Security' }
     { id: 'design', name: 'Design & Video' }
   ];
 

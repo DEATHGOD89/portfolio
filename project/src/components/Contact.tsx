@@ -83,8 +83,8 @@ const Contact = () => {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent">
               Let's Work Together
             </h2>
-            <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto px-4">
-              Ready to bring your ideas to life? Let's discuss your next project and create something amazing together.
+              Self-driven Full-Stack Developer and AI enthusiast with expertise in full stack web development. 
+              Always interested in new opportunities and exciting projects. Let's discuss how we can work together!
             </p>
           </div>
 
