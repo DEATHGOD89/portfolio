@@ -1,0 +1,284 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .dark body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+  }
+  
+  .light body {
+    background-color: #ffffff;
+    color: #1f2937;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-gold-400 to-gold-600 bg-clip-text text-transparent;
+  }
+  
+  .glass-card {
+    @apply bg-gray-900/50 backdrop-blur-sm border border-gray-800/50 dark:bg-gray-900/50 dark:border-gray-800/50;
+  }
+  
+  .light .glass-card {
+    @apply bg-white/90 backdrop-blur-sm border border-gray-200/80 shadow-lg;
+  }
+  
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl;
+  }
+  
+  .light .hover-lift:hover {
+    box-shadow: 0 25px 50px -12px rgba(107, 114, 128, 0.2);
+  }
+  
+  /* Light mode specific styles */
+  .light .gradient-text {
+    @apply bg-gradient-to-r from-black to-gray-800 bg-clip-text text-transparent;
+  }
+  
+  .light .text-gray-300 {
+    @apply text-gray-600;
+  }
+  
+  .light .text-gray-400 {
+    @apply text-gray-500;
+  }
+  
+  .light .bg-gray-900 {
+    @apply bg-gray-50;
+  }
+  
+  .light .bg-gray-800\/50 {
+    @apply bg-gray-100/80;
+  }
+  
+  .light .border-gray-800\/50 {
+    @apply border-gray-300/60;
+  }
+  
+  .light .border-gray-800 {
+    @apply border-gray-300;
+  }
+  
+  .light .border-gray-700 {
+    @apply border-gray-400;
+  }
+  
+  /* Light mode - remove all colors, use only black and white */
+  .light .text-gold-400 {
+    @apply text-black;
+  }
+  
+  .light .bg-gold-400 {
+    @apply bg-black;
+  }
+  
+  .light .border-gold-400 {
+    @apply border-black;
+  }
+  
+  .light .border-gold-400\/20 {
+    @apply border-gray-300;
+  }
+  
+  .light .bg-gold-400\/10 {
+    @apply bg-gray-100;
+  }
+  
+  .light .from-gold-400 {
+    @apply from-black;
+  }
+  
+  .light .to-gold-600 {
+    @apply to-gray-700;
+  }
+  
+  .light .from-gold-500 {
+    @apply from-black;
+  }
+  
+  .light .to-gold-500 {
+    @apply to-gray-600;
+  }
+  
+  .light .hover\:from-gold-400:hover {
+    @apply from-gray-800;
+  }
+  
+  .light .hover\:to-gold-500:hover {
+    @apply to-gray-600;
+  }
+  
+  .light .hover\:text-gold-400:hover {
+    @apply hover:text-black;
+  }
+  
+  .light .hover\:text-gold-300:hover {
+    @apply hover:text-gray-800;
+  }
+  
+  .light .hover\:border-gold-400:hover {
+    @apply hover:border-black;
+  }
+  
+  .light .hover\:bg-gold-400:hover {
+    @apply hover:bg-black;
+  }
+  
+  .light .shadow-gold-500\/25 {
+    box-shadow: 0 25px 50px -12px rgba(107, 114, 128, 0.25);
+  }
+  
+  .light .shadow-gold-500\/20 {
+    box-shadow: 0 25px 50px -12px rgba(107, 114, 128, 0.2);
+  }
+  
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fadeInUp {
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-fadeInLeft {
+    animation: fadeInLeft 0.8s ease-out forwards;
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-fadeInRight {
+    animation: fadeInRight 0.8s ease-out forwards;
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-slideInLeft {
+    animation: slideInLeft 0.6s ease-out forwards;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    25% {
+      transform: translateY(-10px) rotate(5deg);
+    }
+    50% {
+      transform: translateY(-20px) rotate(0deg);
+    }
+    75% {
+      transform: translateY(-10px) rotate(-5deg);
+    }
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes matrix {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh);
+      opacity: 0;
+    }
+  }
+  
+  .animate-matrix {
+    animation: matrix 3s linear infinite;
+  }
+  
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
