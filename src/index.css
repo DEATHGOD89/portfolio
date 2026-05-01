@@ -5,6 +5,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 @layer base {
+  :root {
+    --color-accent: 0, 0, 0;
+    --color-accent-fg: 255, 255, 255;
+  }
+  .dark {
+    --color-accent: 255, 255, 255;
+    --color-accent-fg: 0, 0, 0;
+  }
+
   html {
     scroll-behavior: smooth;
     /* Custom scrollbar */
@@ -17,11 +26,11 @@
     background: #0a0a0a;
   }
   ::-webkit-scrollbar-thumb {
-    background: #dc2626; /* crimson-600 */
+    background: #ffffff; /* crimson-600 */
     border-radius: 4px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #ef4444; /* crimson-500 */
+    background: #ffffff; /* crimson-500 */
   }
   
   body {
@@ -54,7 +63,7 @@
   }
   
   .glass-card {
-    @apply bg-black/60 backdrop-blur-md border border-crimson-900/30 dark:bg-black/60 dark:border-crimson-900/30 shadow-[0_0_15px_rgba(220,38,38,0.05)];
+    @apply bg-black/60 backdrop-blur-md border border-crimson-900/30 dark:bg-black/60 dark:border-crimson-900/30 shadow-[0_0_15px_rgba(255,255,255,)];
   }
   
   .light .glass-card {
@@ -62,23 +71,23 @@
   }
   
   .hover-lift {
-    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(220,38,38,0.2)];
+    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(255,255,255,)];
   }
   
   /* Text Stroke Utility */
   .text-stroke {
-    -webkit-text-stroke: 1px rgba(255,255,255,0.2);
+    -webkit-text-stroke: 1px rgba(255,255,255,);
     color: transparent;
   }
   
   .text-stroke-crimson {
-    -webkit-text-stroke: 1px rgba(220,38,38,0.5);
+    -webkit-text-stroke: 1px rgba(255,255,255,);
     color: transparent;
   }
   
   /* Glow effects */
   .glow-crimson {
-    box-shadow: 0 0 20px rgba(220,38,38,0.5);
+    box-shadow: 0 0 20px rgba(255,255,255,);
   }
   
   /* Light mode fallbacks */
@@ -91,7 +100,7 @@
   }
   
   .light .text-stroke-crimson {
-    -webkit-text-stroke: 1px rgba(220,38,38,0.8);
+    -webkit-text-stroke: 1px rgba(255,255,255,);
   }
 
   .perspective-1000 {

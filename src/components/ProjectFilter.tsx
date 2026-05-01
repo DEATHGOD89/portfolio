@@ -28,7 +28,7 @@ const ProjectFilter: React.FC<ProjectFilterProps> = ({ darkMode, activeFilter, o
           className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 ${
             activeFilter === filter.id
               ? darkMode
-                ? 'bg-gradient-to-r from-crimson-500 to-crimson-600 text-black shadow-crimson-500/25'
+                ? 'bg-gradient-to-r from-crimson-500 to-crimson-600 text-accent-fg shadow-crimson-500/25'
                 : 'bg-black text-white shadow-gray-500/25'
               : darkMode
                 ? 'glass-card text-gray-300 hover:text-crimson-400 hover:bg-gray-800/50'

@@ -63,7 +63,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
           scrolled 
             ? darkMode 
-              ? 'bg-black/80 backdrop-blur-xl border-b border-crimson-900/30 shadow-[0_4px_30px_rgba(220,38,38,0.1)]' 
+              ? 'bg-black/80 backdrop-blur-xl border-b border-crimson-900/30 shadow-[0_4px_30px_rgba(255,255,255,0.1)]' 
               : 'bg-white/90 backdrop-blur-xl border-b border-gray-200 shadow-sm'
             : 'bg-transparent py-2'
         }`}
@@ -166,7 +166,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
               className={`fixed top-0 right-0 h-full w-80 max-w-[80vw] z-50 md:hidden ${
                 darkMode
-                  ? 'bg-black/95 backdrop-blur-xl border-l border-crimson-900/30 shadow-[-10px_0_30px_rgba(220,38,38,0.1)]'
+                  ? 'bg-black/95 backdrop-blur-xl border-l border-crimson-900/30 shadow-[-10px_0_30px_rgba(255,255,255,0.1)]'
                   : 'bg-white/95 backdrop-blur-xl border-l border-gray-200'
               }`}
             >

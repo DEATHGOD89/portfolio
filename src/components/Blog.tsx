@@ -89,7 +89,7 @@ const Blog: React.FC<BlogProps> = ({ darkMode }) => {
                   <div className="absolute top-4 left-4">
                     <span className={`px-3 py-1 rounded-full text-xs font-medium ${
                       darkMode 
-                        ? 'bg-crimson-400 text-black' 
+                        ? 'bg-crimson-400 text-accent-fg' 
                         : 'bg-black text-white'
                     }`}>
                       {article.category}
@@ -135,7 +135,7 @@ const Blog: React.FC<BlogProps> = ({ darkMode }) => {
           <div className="text-center mt-12 animate-fadeInUp" style={{ animationDelay: '0.8s' }}>
             <button className={`inline-flex items-center px-8 py-4 font-semibold rounded-lg transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 ${
               darkMode 
-                ? 'border-2 border-crimson-400 text-crimson-400 hover:bg-crimson-400 hover:text-black' 
+                ? 'border-2 border-crimson-400 text-crimson-400 hover:bg-crimson-400 hover:text-accent-fg' 
                 : 'border-2 border-black text-black hover:bg-black hover:text-white'
             }`}>
               <BookOpen className="w-5 h-5 mr-2" />

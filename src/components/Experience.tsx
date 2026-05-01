@@ -67,7 +67,7 @@ const Experience: React.FC = () => {
             {/* Glowing Scroll Progress Line */}
             <motion.div 
               style={{ height: lineHeight }}
-              className="absolute left-8 md:left-0 top-0 w-px bg-crimson-500 shadow-[0_0_15px_rgba(220,38,38,0.8)] z-10"
+              className="absolute left-8 md:left-0 top-0 w-px bg-crimson-500 shadow-[0_0_15px_rgba(255,255,255,0.8)] z-10"
             />
             
             <div className="space-y-16">
@@ -80,7 +80,7 @@ const Experience: React.FC = () => {
                     whileInView={{ scale: 1 }}
                     viewport={{ once: true, margin: "-100px" }}
                     transition={{ type: "spring", stiffness: 300, delay: 0.1 }}
-                    className="absolute left-[30px] md:left-[-6px] top-6 w-3 h-3 bg-black border-2 border-crimson-500 rounded-full z-20 shadow-[0_0_10px_rgba(220,38,38,0.6)]"
+                    className="absolute left-[30px] md:left-[-6px] top-6 w-3 h-3 bg-black border-2 border-crimson-500 rounded-full z-20 shadow-[0_0_10px_rgba(255,255,255,0.6)]"
                   />
                   
                   <motion.div 
@@ -128,7 +128,7 @@ const Experience: React.FC = () => {
                       <ul className="space-y-3">
                         {exp.achievements.map((achievement, achIndex) => (
                           <li key={achIndex} className="flex items-start group/item">
-                            <span className="w-1.5 h-1.5 bg-crimson-600 group-hover/item:bg-crimson-400 group-hover/item:shadow-[0_0_8px_rgba(220,38,38,0.8)] rounded-full mt-2 mr-4 flex-shrink-0 transition-colors duration-300"></span>
+                            <span className="w-1.5 h-1.5 bg-crimson-600 group-hover/item:bg-crimson-400 group-hover/item:shadow-[0_0_8px_rgba(255,255,255,0.8)] rounded-full mt-2 mr-4 flex-shrink-0 transition-colors duration-300"></span>
                             <span className="text-gray-400 group-hover/item:text-gray-200 transition-colors duration-300">{achievement}</span>
                           </li>
                         ))}

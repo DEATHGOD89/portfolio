@@ -27,7 +27,7 @@ const Resume: React.FC = () => {
             
             <button
               onClick={downloadResume}
-              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-crimson-500 to-crimson-600 text-black font-semibold rounded-lg hover:from-crimson-400 hover:to-crimson-500 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl shadow-crimson-500/25"
+              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-crimson-500 to-crimson-600 text-accent-fg font-semibold rounded-lg hover:from-crimson-400 hover:to-crimson-500 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl shadow-crimson-500/25"
             >
               <Download className="w-5 h-5 mr-2" />
               Download Resume

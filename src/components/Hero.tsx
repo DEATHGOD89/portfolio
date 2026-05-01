@@ -151,8 +151,8 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               className={`px-8 py-4 font-display font-bold tracking-wide uppercase text-sm rounded-xl transition-all duration-300 relative group overflow-hidden ${
                 darkMode 
-                  ? 'bg-crimson-600 text-white shadow-[0_0_20px_rgba(220,38,38,0.3)] hover:shadow-[0_0_30px_rgba(220,38,38,0.5)]' 
-                  : 'bg-crimson-600 text-white shadow-lg'
+                  ? 'bg-crimson-600 text-accent-fg shadow-[0_0_20px_rgba(220,38,38,0.3)] hover:shadow-[0_0_30px_rgba(220,38,38,0.5)]' 
+                  : 'bg-crimson-600 text-accent-fg shadow-lg'
               }`}
             >
               <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out" />

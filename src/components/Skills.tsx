@@ -71,7 +71,7 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
       {/* Animated Background */}
       <div className="absolute inset-0 pointer-events-none opacity-20">
         <div className="absolute inset-0" style={{ 
-          backgroundImage: 'radial-gradient(circle at center, #dc2626 0%, transparent 60%)',
+          backgroundImage: 'radial-gradient(circle at center, #ffffff 0%, transparent 60%)',
           opacity: darkMode ? 0.05 : 0.02
         }} />
       </div>
@@ -108,7 +108,7 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
                 whileHover={{ y: -8, scale: 1.02 }}
                 className={`p-8 rounded-2xl border transition-all duration-300 ${
                   darkMode 
-                    ? 'bg-black/50 backdrop-blur-md border-crimson-900/30 hover:border-crimson-500/50 hover:shadow-[0_0_30px_rgba(220,38,38,0.1)]' 
+                    ? 'bg-black/50 backdrop-blur-md border-crimson-900/30 hover:border-crimson-500/50 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]' 
                     : 'bg-white border-gray-200 hover:border-crimson-300 hover:shadow-xl'
                 }`}
               >
@@ -135,7 +135,7 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
                       className="flex items-center group/skill"
                     >
                       <div className={`w-2 h-2 rounded-full mr-4 transition-all duration-300 group-hover/skill:scale-150 ${
-                        darkMode ? 'bg-crimson-500 shadow-[0_0_8px_rgba(220,38,38,0.8)]' : 'bg-crimson-600'
+                        darkMode ? 'bg-crimson-500 shadow-[0_0_8px_rgba(255,255,255,0.8)]' : 'bg-crimson-600'
                       }`}></div>
                       <span className={`transition-colors duration-200 font-medium ${
                         darkMode 

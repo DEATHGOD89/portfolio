@@ -153,7 +153,7 @@ const Contact: React.FC = () => {
               </div>
 
               {/* Response Time */}
-              <div className="bg-crimson-400 text-black p-4 rounded-lg inline-flex items-center animate-fadeInUp hover:scale-105 transition-transform duration-300" style={{ animationDelay: '1s' }}>
+              <div className="bg-crimson-400 text-accent-fg p-4 rounded-lg inline-flex items-center animate-fadeInUp hover:scale-105 transition-transform duration-300" style={{ animationDelay: '1s' }}>
                 <Clock className="w-5 h-5 mr-3" />
                 <div>
                   <div className="font-semibold">Response Time</div>
@@ -234,7 +234,7 @@ const Contact: React.FC = () => {
 
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-crimson-500 to-crimson-600 text-black font-semibold py-4 px-6 rounded-lg hover:from-crimson-400 hover:to-crimson-500 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl flex items-center justify-center animate-fadeInUp"
+                  className="w-full bg-gradient-to-r from-crimson-500 to-crimson-600 text-accent-fg font-semibold py-4 px-6 rounded-lg hover:from-crimson-400 hover:to-crimson-500 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl flex items-center justify-center animate-fadeInUp"
                   style={{ animationDelay: '0.6s' }}
                 >
                   <Send className="w-5 h-5 mr-2" />
@@ -252,7 +252,7 @@ const Contact: React.FC = () => {
               </p>
               <button
                 onClick={scrollToTop}
-                className="flex items-center px-6 py-3 bg-gradient-to-r from-crimson-500 to-crimson-600 text-black font-semibold rounded-lg hover:from-crimson-400 hover:to-crimson-500 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl"
+                className="flex items-center px-6 py-3 bg-gradient-to-r from-crimson-500 to-crimson-600 text-accent-fg font-semibold rounded-lg hover:from-crimson-400 hover:to-crimson-500 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl"
               >
                 <ArrowUp className="w-4 h-4 mr-2" />
                 Back to Top

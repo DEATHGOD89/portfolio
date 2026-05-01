@@ -125,7 +125,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent transition-opacity duration-500"></div>
                     <div className="absolute top-4 right-4">
-                      <div className="flex items-center px-3 py-1 bg-crimson-600 text-white text-xs font-bold rounded-full shadow-[0_0_10px_rgba(220,38,38,0.5)]">
+                      <div className="flex items-center px-3 py-1 bg-crimson-600 text-accent-fg text-xs font-bold rounded-full shadow-[0_0_10px_rgba(220,38,38,0.5)]">
                         <Star className="w-3 h-3 mr-1" />
                         FEATURED
                       </div>
@@ -169,8 +169,8 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
                       rel="noopener noreferrer"
                       className={`inline-flex items-center justify-center px-4 py-3 font-display font-bold tracking-wide uppercase text-sm rounded-xl transition-all duration-300 ${
                         darkMode
-                          ? 'bg-crimson-600/10 text-crimson-400 border border-crimson-500/30 hover:bg-crimson-600 hover:text-white hover:shadow-[0_0_20px_rgba(220,38,38,0.4)]'
-                          : 'bg-white border-2 border-crimson-600 text-crimson-600 hover:bg-crimson-600 hover:text-white hover:shadow-lg'
+                          ? 'bg-crimson-600/10 text-crimson-400 border border-crimson-500/30 hover:bg-crimson-600 hover:text-accent-fg hover:shadow-[0_0_20px_rgba(220,38,38,0.4)]'
+                          : 'bg-white border-2 border-crimson-600 text-crimson-600 hover:bg-crimson-600 hover:text-accent-fg hover:shadow-lg'
                       }`}
                     >
                       View Project

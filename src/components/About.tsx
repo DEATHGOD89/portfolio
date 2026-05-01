@@ -85,7 +85,7 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
                     whileHover={{ scale: 1.1, backgroundColor: darkMode ? 'rgba(220, 38, 38, 0.2)' : 'rgba(220, 38, 38, 0.1)' }}
                     className={`px-5 py-2.5 text-sm font-display font-medium tracking-wide rounded-lg border transition-colors ${
                       darkMode 
-                        ? 'border-crimson-900/40 bg-black/50 text-crimson-400 shadow-[0_0_10px_rgba(220,38,38,0.05)]' 
+                        ? 'border-crimson-900/40 bg-black/50 text-crimson-400 shadow-[0_0_10px_rgba(255,255,255,0.05)]' 
                         : 'border-crimson-200 bg-white text-crimson-600 shadow-sm'
                     }`}
                   >
@@ -104,7 +104,7 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
                   whileHover={{ y: -10, scale: 1.02 }}
                   className={`p-8 rounded-2xl border transition-all duration-300 group ${
                     darkMode 
-                      ? 'bg-black/40 backdrop-blur-md border-crimson-900/30 hover:border-crimson-500/50 hover:shadow-[0_0_30px_rgba(220,38,38,0.15)]' 
+                      ? 'bg-black/40 backdrop-blur-md border-crimson-900/30 hover:border-crimson-500/50 hover:shadow-[0_0_30px_rgba(255,255,255,0.15)]' 
                       : 'bg-white border-gray-200 hover:border-crimson-300 hover:shadow-xl'
                   }`}
                 >
