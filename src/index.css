@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Custom scrollbar */
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #dc2626; /* crimson-600 */
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ef4444; /* crimson-500 */
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #050505; /* Deep black for the dark cyber look */
+    color: #ffffff;
+  }
+
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+  }
+  
+  /* Lock to dark mode since it's an advanced theme, but keep basic light variables just in case */
+  .dark body {
+    background-color: #030303;
+    color: #ffffff;
+  }
+  
+  .light body {
+    background-color: #ffffff;
+    color: #1f2937;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-crimson-400 to-crimson-600 bg-clip-text text-transparent;
+  }
+  
+  .glass-card {
+    @apply bg-black/60 backdrop-blur-md border border-crimson-900/30 dark:bg-black/60 dark:border-crimson-900/30 shadow-[0_0_15px_rgba(220,38,38,0.05)];
+  }
+  
+  .light .glass-card {
+    @apply bg-white/90 backdrop-blur-md border border-gray-200/80 shadow-lg;
+  }
+  
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(220,38,38,0.2)];
+  }
+  
+  /* Text Stroke Utility */
+  .text-stroke {
+    -webkit-text-stroke: 1px rgba(255,255,255,0.2);
+    color: transparent;
+  }
+  
+  .text-stroke-crimson {
+    -webkit-text-stroke: 1px rgba(220,38,38,0.5);
+    color: transparent;
+  }
+  
+  /* Glow effects */
+  .glow-crimson {
+    box-shadow: 0 0 20px rgba(220,38,38,0.5);
+  }
+  
+  /* Light mode fallbacks */
+  .light .gradient-text {
+    @apply bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent;
+  }
+  
+  .light .text-stroke {
+    -webkit-text-stroke: 1px rgba(0,0,0,0.2);
+  }
+  
+  .light .text-stroke-crimson {
+    -webkit-text-stroke: 1px rgba(220,38,38,0.8);
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  /* We remove the basic keyframe animations as we will rely on framer-motion for advanced animations */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
